@@ -1,1 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  border-radius: 1rem;
+}
+
+.container .heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 2.5rem;
+}
+
+.container .box-1 {
+  background: hsl(31, 77%, 52%);
+  border-radius: 1rem 0 0 1rem;
+}
+
+.container .box-2 {
+  background: hsl(184, 100%, 22%);
+}
+
+.container .box-3 {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 1rem 1rem 0;
+}
+
+.container .box {
+  padding: 5rem;
+}
+
+.container img {
+  padding-bottom: 4rem;
+}
+
+.container .main-content {
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 4rem;
+  line-height: 2.5rem;
+}
+
+.container .btn {
+  display: block;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  outline: none;
+  border-style: none;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+  background: hsl(0, 0%, 95%);
+}
+
+.container .box-1 .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.container .box-2 .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.container .box-3 .btn {
+  color: hsl(179, 100%, 13%);
+}
