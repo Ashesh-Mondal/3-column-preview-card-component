@@ -24,9 +24,9 @@ body {
 
 .container {
   display: flex;
-  max-width: 1000px;
+  max-width: 900px;
   border-radius: 1rem;
-  height: 490px;
+  height: 500px;
 }
 
 .container .heading {
@@ -63,7 +63,7 @@ body {
 .container .main-content {
   font-size: 1.5rem;
   color: hsla(0, 0%, 100%, 0.75);
-  padding-bottom: 4rem;
+  padding-bottom: 7rem;
   line-height: 2.5rem;
 }
 
