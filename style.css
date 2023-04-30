@@ -110,3 +110,39 @@ body {
   color: hsl(0, 0%, 95%);
   cursor: pointer;
 }
+
+@media (min-width: 550px) and (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .container .box-1 {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .container .box-3 {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  :root {
+    font-size: 50%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+  }
+
+  .container .box-1 {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .container .box-3 {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
